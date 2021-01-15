@@ -481,11 +481,14 @@
   position: relative;
   margin-top: -50px;
   background-image: url(../img/boreholeScheme.png);
-  background-position: right calc(50% - 885px) top 80%;
+  background-position: right calc(50% - 855px) top 80%;
   background-repeat: no-repeat;
 }
 
 .wrapper .second-section .our-service {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,7 +523,6 @@
   padding: 0px 10px 0px 20px;
   margin-bottom: 36px;
   width: 100%;
-  width: 372px;
 }
 
 .wrapper .second-section .our-service__buttons button svg {
@@ -545,7 +547,7 @@
 .wrapper .second-section .tools {
   position: absolute;
   top: -60px;
-  left: calc(50% - 970px);
+  left: calc(50% - 950px);
 }
 
 .wrapper .second-section .left-cloud {

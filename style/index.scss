@@ -338,9 +338,12 @@ $montserrat: 'Montserrat', sans-serif;
     position: relative;
     margin-top: -50px;
     background-image: url(../img/boreholeScheme.png);
-    background-position: right calc(50% - 885px) top 80%;
+    background-position: right calc(50% - 855px) top 80%;
     background-repeat: no-repeat;
     .our-service {
+      width: 100%;
+      max-width: 1500px;
+      margin: 0 auto;
       @include flex;
       display: inline-flex;
       justify-content: space-around;
@@ -357,7 +360,6 @@ $montserrat: 'Montserrat', sans-serif;
           padding: 0px 10px 0px 20px;
           margin-bottom: 36px;
           width: 100%;
-          width: 372px;
           svg {
             fill: $green;
             margin-right: 16px;
@@ -379,7 +381,7 @@ $montserrat: 'Montserrat', sans-serif;
     .tools {
       position: absolute;
       top: -60px;
-      left: calc(50% - 970px);
+      left: calc(50% - 950px);
     }
     .left-cloud {
       position: absolute;
