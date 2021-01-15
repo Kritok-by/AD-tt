@@ -1,9 +1,9 @@
 import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js';
 const arrImg = [
-  '../img/calculator.svg',
-  '../img/binoculars.svg',
-  '../img/circule.svg',
-  '../img/man.svg',
+  './img/calculator.svg',
+  './img/binoculars.svg',
+  './img/circule.svg',
+  './img/man.svg',
 ];
 export const swiper = new Swiper('.swiper-container', {
   direction: 'vertical',
